@@ -1,0 +1,20 @@
+{
+  "name": "hashcode_cthulhus_knights",
+  "version": "1.0.0",
+  "description": "Repository per il Kata relativo all'HashCode del 5 Febbraio 2021",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silversoul93/hashcode_cthulhus_knights.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silversoul93/hashcode_cthulhus_knights/issues"
+  },
+  "homepage": "https://github.com/silversoul93/hashcode_cthulhus_knights#readme"
+}
