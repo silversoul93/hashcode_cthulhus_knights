@@ -35,5 +35,8 @@
   "bugs": {
     "url": "https://github.com/silversoul93/hashcode_cthulhus_knights/issues"
   },
-  "homepage": "https://github.com/silversoul93/hashcode_cthulhus_knights#readme"
+  "homepage": "https://github.com/silversoul93/hashcode_cthulhus_knights#readme",
+  "dependencies": {
+    "archiver": "^5.2.0"
+  }
 }
