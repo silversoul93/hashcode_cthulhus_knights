@@ -4,7 +4,8 @@
   "description": "Repository per il Kata relativo all'HashCode del 5 Febbraio 2021",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
+    "start:local": "nodemon index.js",
     "lint": "eslint src --ext .js",
     "unit": "tap --test-regex=/.test.js/g",
     "unit:update-snapshot": "npm run unit -- --snapshot",
@@ -37,6 +38,7 @@
   },
   "homepage": "https://github.com/silversoul93/hashcode_cthulhus_knights#readme",
   "dependencies": {
-    "archiver": "^5.2.0"
+    "archiver": "^5.2.0",
+    "lodash.get": "^4.4.2"
   }
 }
