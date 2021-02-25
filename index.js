@@ -86,13 +86,17 @@ const start = () => {
     let schedulesCount = 0
     for (const interceptionId in interceptions) {
       const { inStreets, outStreets } = interceptions[interceptionId]
+      const orderedInStreets = inStreets.sort((a, b) => {
+        return streets[b].carFlow - streets[a].carFlow
+      })
+      // console.log(orderedInStreets)
       const schedule = []
-      for (const street of inStreets) {
+      for (const street of orderedInStreets) {
         const lightDuration = streets[street].carFlow < executionTime
           ? streets[street].carFlow
           : executionTime
         if (lightDuration !== 0) {
-          schedule.push(`${street} ${lightDuration}`)
+          schedule.push(`${street} ${Math.ceil(lightDuration / orderedInStreets.length)}`)
         }
       }
 
