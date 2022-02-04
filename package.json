@@ -39,6 +39,7 @@
   "homepage": "https://github.com/silversoul93/hashcode_cthulhus_knights#readme",
   "dependencies": {
     "archiver": "^5.2.0",
-    "lodash": "^4.17.21"
+    "lodash.get": "^4.4.2",
+    "lodash.set": "^4.3.2"
   }
 }
